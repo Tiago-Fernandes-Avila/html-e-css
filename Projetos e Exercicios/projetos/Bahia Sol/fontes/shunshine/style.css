@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+ --cor1:#66A3D9;
+ --cor2:#426A8C;
+ --cor3:#F2CA52;
+ --cor4:#F2B05E;
+ --cor5:#F2C6A0;
+}
+
+header{
+    width: 100%;
+    
+    min-height: 120px;
+    background-color:var(--cor2);
+
+
+}
+header > h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+main{
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--cor3);
+}

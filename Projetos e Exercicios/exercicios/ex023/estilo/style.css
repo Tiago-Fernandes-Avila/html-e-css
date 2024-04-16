@@ -1,0 +1,204 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(../pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+   :root{
+    --cor0:#5b5c5c;
+    --cor1:#3a464e;
+    --cor2:#bfc0c2;
+    --cor3:#48494b;
+    --cor4:#e5f0bc;
+    --cor5:#076ba5;
+  
+      --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+      --fonte-destaque: Bebas Neue;
+      --fonte-idroid: idroid, cursive;
+} 
+
+
+   body {
+    background-color: var(--cor0);
+    
+}
+header{
+    background-image: linear-gradient( to bottom, var(--cor5), var(--cor2)) ;
+    width: 100%;
+    min-height: 150px;
+    padding-top: 50px;
+    
+    }
+    header > h1{
+             color: white;
+             margin-bottom:30px ;
+             text-align: center;
+             font-size: 3em;
+             font-family: var(--fonte-destaque);
+             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185);
+
+             
+    }
+    header > p{
+        text-align: center;
+        max-width: 600px;
+        margin: auto;
+        font-family: var(--fonte-destaque);
+        font-size: 1em;
+        color:white;
+    }
+    nav{
+        margin-top: 30px;
+        padding: 10px;
+    }
+    nav > a{
+        padding-right: 10px;
+        
+        color: white;
+        text-decoration: none;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+        padding: 15px;
+        background-color: #75adce;
+        transition-duration: 0.3s;
+        border-radius:2px ;
+        
+        
+    }
+
+main{
+    background-color: #ffffff;
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    margin-bottom: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    
+    
+}
+
+
+
+picture > img{
+    width: 100%;
+}
+
+article > h1{
+    color: var(--cor5);
+    font-family: var(--fonte-idroid);
+
+}
+main h2{
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+}
+main  p{
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 30px;
+    margin: 15px;
+    
+}
+article > h2{
+    color: var(--cor5);
+    font-family: var(--fonte-idroid);
+}
+main strong{
+    font-weight: bold;
+    background-color: var(--cor1);
+    color: var(--cor5);
+
+}
+main a{
+    text-decoration: bolder;
+    background-color: #5b5c5c;
+    background-color: #87b9d6;
+    color: var(--cor3);
+
+}
+aside{
+background-color: #75adce;
+border-radius: 5px;
+box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.205);
+
+
+}
+aside > h1{
+    text-align: center;
+    background-color: #2b92ce;
+    width: 100%;
+    display: block;
+    padding: 10px 0px;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 1.3em;
+    font-family: var(--fonte-destaque);
+   
+}
+aside
+.imgpq{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+ main ul{
+   list-style-position: inside;
+    padding: 40px;
+    display: inline-block;
+
+ }
+ footer{
+    min-height: 90px;
+    background-color: #87b9d6;
+    margin-top: 30px;
+    padding: 10px;
+ }
+ footer > p {
+             text-align: center;
+             font-size: 2em;
+             padding-top:20px ;
+             font-family: var(--fonte-destaque);
+             color: white;
+             font-weight: bolder;
+             }
+             footer a{
+                color: dimgray;
+                text-decoration: none;
+             }
+             footer:hover{
+                background-image: linear-gradient( to top, var(--cor2), var(--cor5));
+                transition-duration: 0.5s;
+                padding-right:15px;
+                
+             }
+             footer a:hover {
+                color: antiquewhite;
+                text-decoration: underline;
+               
+             }
+
+             div.video{
+                position: relative;
+                width: 100%;
+                padding-bottom:56.25% ;
+                
+                margin-bottom:20px ;
+                
+             }
+             div.video > iframe{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            
+              
+             }
+           

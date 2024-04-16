@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: bonita;
+  src: url(fontes/ballistic_script/Ballistic\ Script.otf);
+}
+
+*{
+    font-family:Arial, Helvetica, monospace
+}
+
+body{
+    background-image: linear-gradient( to bottom, #AED3F2, #0477BF); 
+    background-attachment: fixed;
+    margin: 0px;
+}
+header{
+  font-family: bonita;
+       background-color: #3791A6;
+       font-size: 65px;
+       padding: 15px;
+       width:auto;
+       margin:auto;
+       border-radius: 4px;
+       text-shadow:3px 4px 3px #184049;
+      font-size: 80px;
+       text-align:center
+       
+
+
+}
+main{
+    background-color:white;
+      width:800px ;
+      border-radius:10px;
+      margin:auto;
+      padding:10px;
+      color:#3791A6;
+      
+      box-shadow:128px 0px 0px 0px #4b403c93 , -128px 0px 0px 0px #4b403c
+      }
+      h1{
+        text-align: center;
+      }
+
+      p{
+         text-shadow:15 #4b403c;
+
+      }
+
+      #ad {
+        position:absolute;
+        margin-left:-800px;
+        margin-top: 300px;
+        width: 300px;
+        height:300px;
+        z-index: 1;   
+        color:rgb(82, 58, 14);  
+        background: rgb(118, 96, 138);
+        border-radius: 50%;
+        padding:10px;
+        text-align: center;
+        font-size: 2.3em;
+
+
+      }

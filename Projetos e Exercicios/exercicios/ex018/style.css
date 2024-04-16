@@ -1,0 +1,32 @@
+@charset "pt-br";
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+@font-face {
+    font-family: hand;
+    src: url('Satisfy/Satisfy-Regular.ttf') format(truetype);
+}
+*{
+    text-align:center ;
+}
+
+body{
+    background-image: linear-gradient(to left, #4d4b4b, #706b6b, #3A3A3A);
+}                                                 
+
+h1 {
+    font-size: 32px;
+    font-family:'satisfy', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+p{
+    font-family: 'roboto',sans-serif;
+    color: #3A3A3A ;
+    font-weight: bold ;
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 30px;
+    
+    
+}

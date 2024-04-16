@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 011</title>
+</head>
+<body>
+    <h1>imagem dinamica para multiplos dispositivos</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou tente modificar o zoom do seu navegador</p>
+
+<picture>
+<source media="(max-width:750px )" srcset="imagens/pedrapraia300.jpg" type="image/png">
+<source media="(max-width:1050px )" srcset="imagens/pedrapraia700.jpg" type="image/png">
+    <img src="imagens/pedrapraia1200.jpg" alt="foto responsiva">
+</picture>    
+    
+    <h1>meu primeiro comando para adicionar uma midia de video</h1>
+<audio preload="metadata" autoplay controls loop>
+   <source src="midias/baleies.m4a" type="audio/mpeg">
+   
+</audio>
+<p>audio do baleies para quem quiser ouvir</p>
+
+<h1>agora iremos colocar as tags de video</h1>
+<p>para que possamos configurar um video em html5 precisaremos das tags &lt;video width="" poster="" controls 
+    &gt;, &lt;source src="" type=""&gt; </p>
+<video width="850px" controls>
+    <source src="video/Albion Online Client 2023-07-26 20-05-56.mp4" type="video/mp4">
+                 <p>Seu navegador infelimente é imcompativel com este formato.</p>
+
+
+
+
+</video>
+
+
+
+
+</body>
+</html>

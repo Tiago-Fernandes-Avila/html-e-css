@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        
+        padding: 0px;
+        margin:auto;
+        
+       }
+       header{
+        background-image: linear-gradient( to right, rgb(153, 158, 123), rgb(129, 112, 105), rgb(61, 78, 82))  ;
+        padding: 10px;
+        margin: 0px 0px 0px 0px;
+        height: 150px;
+        text-align: center;
+        color: rgb(222, 240, 62);
+        border: 3px black;
+        border-style: dashed;
+        
+        
+       }
+       img{
+        height: 100px;
+        width: 100px;
+       }
+       header > nav{
+        text-align:center;
+        height: 50px;
+        width: 300px;
+        background-color: rgb(204, 231, 222);
+        word-spacing: 1.5em;
+        padding-bottom: 0px;
+        border: 2px solid black ;
+        box-shadow: 4px 4px 4px rgba(105, 105, 105, 0.616);
+        
+       }
+       nav > a{
+        text-decoration: none;
+        color: black;
+
+       }
+       nav >a:hover{
+                       text-decoration: underline;
+
+       }
+       nav>a:visited{
+        color: black;
+       }
+       
+       main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px auto;
+        display: block;
+        height: 1000px;
+        width: 800px;
+        border: 2px solid black;
+
+        
+      }
+      article{
+        background-color: lightblue;
+        padding: 10px;
+        margin: 10px;     
+    }
+    footer{
+        margin: 0px 0px 10px 0px;
+        background-color: rgb(26, 27, 27);
+        padding: 10px;
+        text-align: center;
+        color: white;
+        position:bottom;
+        margin-bottom: 0px;
+        }
+        .artigo{
+            margin-top: 30px;
+            color: rgb(123, 123, 148);
+        }
+        .conteudo{margin-top: 50px;
+            height: 500px;
+            border-radius: 10px;
+            border: 2px solid lightgray;
+
+        }
+        #noticias{
+      border: 2px solid lightgray;
+      border-radius: 10px;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Meu site </h1>
+           
+            <nav><br>
+                   <a href="#">link</a>
+                   <a href="#">link</a>
+                   <a href="#">link</a>
+                   <a href="#">link</a>
+                   <a href="#">link</a>
+            </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+       
+        <section>
+
+                   <article id="noticias" >
+                    <h2>noticias sobre tecnologia</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat earum minus rem odit animi sapiente sequi consequuntur dolorum, adipisci amet aut aliquam repudiandae ex ipsam temporibus quia! Est, enim debitis?</p>
+                               <aside>
+                                <p>Artigo escrito por: Tiago programador</p>
+                                <img src="artworks-000336581319-m8kysg-t500x500.jpg" alt="eu">
+
+                               </aside>
+
+                   </article>               
+                   <article class="conteudo">
+                               <aside class="artigo"><h2>o Tiago esta criando esse site</h2>
+                                     <p>eu estou criando esse site com tecnologias como html css e java script o basico para desenvolvimento web <br>
+
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quibusdam illum laborum necessitatibus fugit facilis aliquid aliquam iste dicta hic. Dolorum repellendus totam corrupti, pariatur magni animi molestiae enim <br><br><br>
+                                        com isso encontramos um som, barulho ou melhor dizendo um grunido muito assustador vindo das profundezas do oceano:
+                                        <br><br>
+                                        
+                                        <audio controls>
+                                           <source src="baleies.m4a">
+                                        </audio>
+
+                                     </p>
+                            </aside>
+                            
+                   </article>
+        
+        
+                </section>
+                <div id="bola">
+
+                </div>
+
+
+    
+    </main>
+                       
+    
+    
+                      <footer>
+                                     <p>Desenvolvido pelo Tiago Programador</p>
+
+                       </footer>
+</body>
+</html>

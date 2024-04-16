@@ -1,0 +1,69 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+@font-face {
+    font-family: beleza;
+    src: url('Satisfy/Satisfy-Regular.ttf'); format:('truetype')
+}
+
+header{
+    background-color:rgb(220, 244, 245);
+    width: 1000px;
+    margin:100px ;
+    text-align: center;
+    font-family: satisfy;
+    font-weight: normal;
+    font-size: 3em;
+    padding: 10px;
+    
+    
+
+
+
+
+}
+
+body{
+    background-color: rgb(159, 175, 175);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0px;
+   
+        
+}
+main{
+         margin:auto;
+         background-color: rgb(220, 244, 245);
+         padding: 100px;
+         width: 1000px;
+         font-family:normal;
+         font-weight: lighter;
+        
+         
+
+}
+
+h1{
+    color: #3A3A3A;
+    font-size: 2em;
+}
+h2{
+    color: rgb(73, 80, 80);;
+
+}
+p{
+    color: rgb(52, 56, 56);
+    font-size: 1.6em;
+}
+h1#principal{
+            font-family: beleza;
+}
+.basico{
+    color: #427c80;
+}
+
+.intermediario{
+ color: #73793e;
+
+}
+.avancado{
+color: #753e3b;
+}

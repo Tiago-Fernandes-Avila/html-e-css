@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body {
+            background-color: black; text-align: center;      
+
+      }
+h1 {
+    color: whitesmoke; font-family:'Times New Roman', Times, serif;
+}
+
+p  {
+
+        color:antiquewhite; font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+a {
+
+       color:bisque ;
+
+}

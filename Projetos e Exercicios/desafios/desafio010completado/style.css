@@ -1,0 +1,155 @@
+@charset "utf-8";
+@font-face {
+    font-family:idroid;
+    src: url('pacote-projeto-d010/fontes/idroid.otf');
+    }
+    
+body{
+  
+    padding: 0px;
+    background-color:#ecf7ff ;
+    margin: 0px;
+    
+    
+}
+root:{
+    
+}
+    
+header{
+    background-image: linear-gradient(to bottom, #12162B, #004178 );
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    color: white;
+    
+    
+    
+    
+    
+    }
+    header > h1{
+        text-align: center;
+        margin-top: 0px;
+        font-family: idroid;
+        
+    }
+    header > p{
+        text-align: center;
+        font-family:roboto, sans-serif ;
+    }
+    nav{
+        word-spacing: 15px;
+    }
+    nav > a{
+        text-decoration: none;
+        color:#ffffff ;
+    }
+    nav > a:visited {
+        word-spacing: 30px;
+        color:white ;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+    }
+
+div{
+    padding-left:18% ;
+    padding-right: 18%;
+}
+    
+    main{
+        background-color: #ffffff;
+        margin:auto;
+        padding: 15px;
+    }
+    main > h1{
+        font-family: idroid, sans-serif;
+        background-color: #5b81a1;
+    }
+    #video{
+        background-color: #004178;
+        
+        
+    }
+
+    #video > iframe{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+       
+      
+    }
+    .bonus{
+        background-color: #ffffff;
+        padding: 0px;
+        
+        margin: 0px;
+        border: 1px solid dimgray;
+
+        
+    }
+    .bonus > h1{
+background-color: #344a5e;
+text-align: center;
+padding: 5px;
+font-size: 2em;
+margin:0px;
+color: antiquewhite;
+font-family: idroid,sans-serif;
+
+}
+#bonuslist{
+    background-color: #5c8ab3;
+    margin: 0px;
+    color: antiquewhite;
+
+}
+#bonuslist > p{
+    margin: 0px;
+    padding: 15px;
+    font-family: roboto;
+}
+ul{
+    display: inline-block;
+    width: 200px;
+margin:0px 10% 0px 0px;
+color: antiquewhite;
+}
+li > a{
+    color: antiquewhite;
+}
+li > a:visited{
+    color: antiquewhite;
+}
+#foto > img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#foto2 > img{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+#foto3{
+    display: block;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(to right, #12162B,  #004178);
+    height: 50px;
+    color: antiquewhite;
+    padding:10px ;
+
+    
+}
+footer > p{
+           margin: 5px;
+           font-family: Satisfy, sans-serif;
+           font-size: 1.5em;
+}
+
+
+    

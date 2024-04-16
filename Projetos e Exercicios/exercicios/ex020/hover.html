@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>o hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        div{
+            background-color: brown;
+            width: 200px;
+            
+        }
+
+        div > p{
+                  display: none;
+                  
+
+
+        }
+        
+        
+        div:hover  >  p {
+                 color:aquamarine;
+                 display: block;
+                 background-color: white; }
+
+                 div:hover >  a {
+                 color:black;
+                 display: block;
+                 }
+    </style>
+</head>
+<body>
+    <h1>trabalhando o uso da propriedade hover em css</h1>
+           <p>atenção spoiler:</p>
+           
+           <div>Passe o mouse aqui
+            <p><a href="http://www.youtube.com" target="_blank" rel="external">texto escondido</a></p>
+           </div>
+           <p>fim do exemplo</p>
+</body>
+</html>

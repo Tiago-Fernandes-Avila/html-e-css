@@ -1,0 +1,44 @@
+uma coisa muito importante é uso so seo seach engine optimization ferramenta de otimização de busca por isso é importante deixar a a com bastante informação para os buscadores do google
+
+
+</a> a tag ancora é uma tag para anexar um link, para funcionar é necessario usar o padrão "href"
+
+A digitação da tag <a> seria assim: <a href=" link "> nome do link</a> 
+
+ Para que eu possa fazer com que uma ancora não fique 
+todas em linha </a> eu preciso ir a tag "head" e usar o comando </style> a {display:block;}
+
+O parametro que vou usar para dizer que o site tem que abrir em uma nova aba no caso é o target="_blank"
+
+ O parametro TARGET é um parametro para manipulação do link para que ele abra em "self" ou seja na mesma 
+pagina ou em "blank" em outra pagina aba
+
+O parametro "REL" é usado para deninir a categoria do link exmplo: rel="external" indica que o site é de um lugar externo
+
+
+com um site interno não precisamos colocar o link apenas o nome do arquivo dentro da nossa pasta e o rel colocamos o rel="next"
+e para retroceder a pagina anterior como se fosse um home do site usamos o rel="prev"
+
+da mesma forma temos um rel para um link patrocinado ou que vc não quer uma que aquilo seja atrelado ao seu site nos colocamos o rel="nofollow"
+
+se fomos voltar em uma pasta anterior no servidor de paginas temos que usar o ../ 
+ 
+
+O parametro "MEDIA" é para especificar a o dispositivo que é mais recomendado media="all" seria o padrão ou o 
+print que será otimizado para uma impressora
+
+
+O "hreflang" indica a linguagem do site da ancora site exemplo para o tradutor não precisa perguntar, hreflang="pt-br"
+
+TYPE indica o conteudo do link esta importado exemplo type="text/html", "text/css, application/zip, video/mp4"
+
+o parametro download é usado para especificar que é um download e colocar um nome diferente, offline não funciona
+
+tbm tem o alert  <a href="javascript:alert('texto que for colocar');"> exemplo</a>
+
+parametro id é usado para fazer uma identificação exemplo eu uso o id="topodapagina" e eu usar um href eu posso ir para o topo do pagina se eu endereçar na 
+tag <a href="#topodapagina"> gostaria de ir para o inicio?</a>
+
+
+
+
