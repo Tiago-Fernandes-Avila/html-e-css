@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        body{
+            height:150vh;
+            padding: 0px;
+            margin: 0px;
+        
+    
+            
+        }
+                  .container{
+                    
+                
+                 background-color: rgb(216, 177, 71);
+                 padding: 10px;
+                 background-image: url(imagens-cap19/target001.png);
+                
+                 background-position: center center;
+                 height: 96vh;
+                 background-size: cover;
+
+
+                  }
+                  .conteudo{
+                    background-image: url(imagens-cap19/target001.png);
+                    background-size: 100% 100%;
+                    position: absolute;
+                    height: 200px;
+                    background-color: aqua;
+                    width: 400px;
+                    margin:auto;
+                    top: 50%;
+                    left: 50%;
+                    transform:translate(-50% -50%);
+                   
+
+                  }
+#ola{
+    position:sticky;
+    top:0px;
+    z-index:10;
+
+  background-color: aqua;
+  padding: 0px;
+  margin:0px;
+
+    
+}
+#ola h1{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <aside id="ola">
+        <h1>ola galera</h1>
+      </aside>
+    <section class="container">
+              <aside class="conteudo">
+
+              </aside>
+              
+
+    </section>
+    
+</body>
+</html>
