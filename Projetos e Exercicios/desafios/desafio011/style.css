@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+:root{
+--fontnormal:permanent marker;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    height: 130vh;
+    background-image: url(pacote-d012/imagens/pexels-travis-rupert-379220-1032650.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-image: url(pacote-d012/imagens/pexels-bella-white-201200-635279.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(0, 62, 112);
+    text-align: center;
+    min-height: 100px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+
+}
+header > p > a {
+    color: rgb(131, 131, 131);
+}
+section{
+    background-color: #0000000c;
+}
+header a h1 p {
+    color: white;
+}
+header > a:visited{
+    color: white;
+}
+main{
+    
+    max-width: 900px;
+    margin:auto;
+    font-size: 1.2em;
+    font-family:  var(--fontnormal);
+}
+
+#primeiras{
+    font-family: var(--fontnormal);
+}
+#segunda{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 20px;
+
+}
+#segunda > p{
+    max-width: 400px;
+    max-height: 500px;
+    
+    background-color: #0000007a;
+}
+#terceira{
+    padding: 20px
+}
+#quarta{
+    
+    color: white;
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center right;
+    padding: 20px;
+}
+#quarta > p{
+    max-width: 400px;
+    max-height: 400px;
+    
+    background-color: #21273386;
+}
+footer{
+    min-height:100px ;
+    background-color: #212733;
+    color: white;
+    text-align: center;
+    font-family: var(--fontnormal);
+    
+}
+footer > p{
+    padding-top: 40px;
+    font-size: 1.5em;
+}
+footer  a:visited{
+    
+    color: white;
+
+}
